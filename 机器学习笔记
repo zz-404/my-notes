@@ -1,2 +1,9 @@
-123456
-123456
+#代价函数
+- J(w,b)=1/2m *  segma(i=1,n)  [ (y(i)-y^(i))^2 ]
+
+#梯度下降
+``代码``
+for
+  tmpw=w-alpha * d(J)/dw
+  tmpb=w-alpha * d(J)/db
+  w=tmpw b=tmpb
