@@ -1,3 +1,4 @@
 np.reshape(v, (3, 1))
 np.reshape(v, (-1, 1)) #-1表示自动计算该维度的长度
 
+np.power(array,pow) 元素的幂次方
